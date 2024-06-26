@@ -1,17 +1,6 @@
 //Audio
 
-const diceAudioArray = ["audio/dice-roll-audio1.mp3","audio/dice-roll-audio2.mp3",
-  "audio/dice-roll-audio3.mp3","audio/dice-roll-audio4.mp3","audio/dice-roll-audio5.mp3",
-  "audio/dice-roll-audio6.mp3","audio/dice-roll-audio7.mp3","audio/dice-roll-audio8.mp3",
-  "audio/dice-roll-audio9.mp3"
-]
-
 const diceAudio = document.querySelector("#dice-audio")
-
-function diceRollAudio(){
-  diceAudio.src = diceAudioArray[Math.floor(Math.random()*diceAudioArray.length)]
-  diceAudio.play()
-}
 
 //Dice button
 
@@ -29,7 +18,7 @@ const diceImageArray = ["images/d4.png", "images/d6.png", "images/d8.png",
 
 function buttonTest() {
 
-  diceRollAudio()
+  diceAudio.play()
 
   let dice = Number(diceSize.value)
 
