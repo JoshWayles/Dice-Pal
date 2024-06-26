@@ -54,12 +54,16 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 200px;
-  width: 200px;
   background-color: transparent;
   border: none;
   font-size: 50px;
+  padding: 80px;
   color: white;
+}
+
+#dice-btn{
+  display:block;
+  margin:auto;
 }
 
 select {
@@ -108,14 +112,13 @@ h3 {
 #font-btn-s,
 #font-btn-m,
 #font-btn-l {
-  height: 45px;
-  width: 45px;
   border: none;
-  border-radius: 50%;
+  border-radius: 5px;
   font-size: 20px;
   color: white;
   background-color: rgb(150, 150, 150);
   margin: 0 10px;
+  padding:12px 
 }
 
 ::placeholder {
