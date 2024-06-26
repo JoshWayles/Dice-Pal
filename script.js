@@ -132,11 +132,11 @@ const fontLargeButton = document.querySelector("#font-btn-l")
 fontLargeButton.addEventListener("click", fontLarge)
 
 function fontSmall() {
-  textAreaSize.style.fontSize = "2vh"
+  textAreaSize.style.fontSize = "16px"
 }
 function fontMedium() {
-  textAreaSize.style.fontSize = "4vh"
+  textAreaSize.style.fontSize = "24px"
 }
 function fontLarge() {
-  textAreaSize.style.fontSize = "6vh"
+  textAreaSize.style.fontSize = "32px"
 }
