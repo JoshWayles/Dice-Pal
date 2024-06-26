@@ -57,13 +57,13 @@ img {
   background-color: transparent;
   border: none;
   font-size: 50px;
-  padding: 80px;
+  padding: 50px 50px;
   color: white;
 }
 
-#dice-btn{
-  display:block;
-  margin:auto;
+#dice-btn {
+  display: block;
+  margin: auto;
 }
 
 select {
@@ -95,7 +95,7 @@ h2 {
 
 .button-up-down1,
 .button-up-down5 {
-  display:grid;
+  display: grid;
   height: 100px;
   width: 80px;
 }
@@ -118,7 +118,7 @@ h3 {
   color: white;
   background-color: rgb(150, 150, 150);
   margin: 0 10px;
-  padding:12px 
+  padding: 5px 15px;
 }
 
 ::placeholder {
