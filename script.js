@@ -135,8 +135,8 @@ function fontSmall() {
   textAreaSize.style.fontSize = "16px"
 }
 function fontMedium() {
-  textAreaSize.style.fontSize = "24px"
+  textAreaSize.style.fontSize = "26px"
 }
 function fontLarge() {
-  textAreaSize.style.fontSize = "32px"
+  textAreaSize.style.fontSize = "36px"
 }
