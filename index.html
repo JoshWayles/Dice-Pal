@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Josh Wayles" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dice Pal</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Dice Pal :&#41;</h1>
+    </header>
+    <main>
+        <audio id="dice-audio">
+            <source src="audio/dice-roll-audio1.mp3">
+        </audio>
+        <div class="dice-image">
+            <img id="dice-image" src="images/no-dice.png">
+            <button id="dice-btn">Dice</button>
+        </div>
+        <div class="dice-select">
+            <select id="dice-size">
+                <option value="0">Pick A Size</option>
+                <option value="4">D4</option>
+                <option value="6">D6</option>
+                <option value="8">D8</option>
+                <option value="10">D10</option>
+                <option value="12">D12</option>
+                <option value="20">D20</option>
+                <option value="100">Out of 100</option>
+            </select>
+        </div>
+        <div class="score-tracker">
+            <div class="button-up-down1">
+                <button id="score-plus-1">+1</button>
+                <button id="score-minus-1">-1</button>
+            </div>
+            <h2 id="score-display">20</h2>
+            <div class="button-up-down5">
+                <button id="score-plus-5">+5</button>
+                <button id="score-minus-5">-5</button>
+            </div>
+        </div>
+        <div class="note-section">
+            <div class="font-size-change">
+                <h3>Font Size</h3>
+                <button id="font-btn-s">S</button>
+                <button id="font-btn-m">M</button>
+                <button id="font-btn-l">L</button>
+            </div>
+            <textarea id="note" placeholder="Pick a size and tap the dice. The score tracker can be used to track whatever you like. This area can be typed in for keeping notes."
+                rows="5"></textarea>
+        </div>
+    </main>
+    <footer>
+        <div class="author">
+            <p id="author"> Code and assets by <a href="https://ko-fi.com/joshwayles" target="_blank">Josh Wayles</a>
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
