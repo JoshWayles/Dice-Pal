@@ -1,7 +1,3 @@
-//Audio
-
-const diceAudio = document.querySelector("#dice-audio")
-
 //Dice button
 
 const diceButton = document.querySelector("#dice-btn")
@@ -17,8 +13,6 @@ const diceImageArray = ["images/d4.png", "images/d6.png", "images/d8.png",
 ]
 
 function buttonTest() {
-
-  diceAudio.play()
 
   let dice = Number(diceSize.value)
 
