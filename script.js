@@ -22,7 +22,7 @@ function buttonTest() {
     diceAnimation.style.animation = "noDice 500ms"
     setTimeout(removeAnimation, 500)
     diceButton.textContent = "Pick A Size"
-    diceButton.style.fontSize = "50px"
+    diceButton.style.fontSize = "40px"
   } if (dice === 4) {
     diceImage.src = diceImageArray[0]
     diceImage.style.top = "40%"
