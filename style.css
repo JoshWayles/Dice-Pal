@@ -9,8 +9,8 @@ h1 {
   margin: 10px auto 30px;
 }
 
-h2{
-  color:black;
+h2 {
+  color: black;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
@@ -77,12 +77,18 @@ img {
 select {
   color: black;
   display: block;
-  margin: 5px auto 30px;
   height: 40px;
   width: 180px;
   border: none;
   border-radius: 0;
   text-align: center !important;
+}
+
+.dice-select {
+  border: 1px solid black;
+  height: 40px;
+  width: 180px;
+  margin: 5px auto 30px;
 }
 
 .score-tracker {
@@ -149,7 +155,7 @@ textarea {
   font-size: 16px;
 }
 
-.author{
+.author {
   color: black;
   font-style: italic;
   text-align: center;
