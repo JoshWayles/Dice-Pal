@@ -104,15 +104,15 @@ select {
 }
 
 h3 {
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 60px;
-  margin: 15px 10px 0;
+  margin: 11px 10px 0;
 }
 
 .button-up-down1,
 .button-up-down5 {
   display: grid;
-  height: 100px;
+  height: 90px;
   width: 80px;
 }
 
